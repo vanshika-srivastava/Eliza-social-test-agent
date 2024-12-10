@@ -48,6 +48,7 @@ import { fileURLToPath } from "url";
 import yargs from "yargs";
 
 import { mainCharacter } from "../mainCharacter";
+import { docsProvider } from "../docsProvider";
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
@@ -399,7 +400,7 @@ export function createAgent(
             getSecret(character, "ALCHEMY_API_KEY") ? goatPlugin : null,
             getSecret(character, "APTOS_PRIVATE_KEY") ? aptosPlugin : null,
         ].filter(Boolean),
-        providers: [],
+        providers: [docsProvider],
         actions: [],
         services: [],
         managers: [],

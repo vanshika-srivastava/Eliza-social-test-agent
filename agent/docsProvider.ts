@@ -4,7 +4,6 @@ import axios from "axios";
 
 // List of specific URLs to fetch content from
 const specificUrls = [
-  "https://raw.githubusercontent.com/vanshika-srivastava/Eliza-social-test-agent/refs/heads/main/markdowns/Circles%20-%20Steps%20to%20Launch%20-%20Dec-2024.md",
   "https://raw.githubusercontent.com/vanshika-srivastava/Eliza-social-test-agent/refs/heads/main/markdowns/RAG-baseDocs.md"
 ];
 

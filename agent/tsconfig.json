@@ -18,6 +18,7 @@
         "src",
         "src/index.ts",
         "mainCharacter.ts",
-        "docsProvider.ts"
+        "src/docsProvider.ts",
+        "src/ragHandler.ts"
     ]
 }

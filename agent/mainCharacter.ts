@@ -3,7 +3,7 @@ import { Character, ModelProviderName, Clients } from "@ai16z/eliza";
 export const mainCharacter : Character = {
     name: "Circles Dev Agent",
     clients:[Clients.DISCORD],
-    modelProvider: ModelProviderName.OPENAI,
+    modelProvider: ModelProviderName.ANTHROPIC,
     "settings": {
         "secrets": {},
         "voice": {
